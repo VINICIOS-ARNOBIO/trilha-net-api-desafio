@@ -26,6 +26,8 @@ namespace TrilhaApiDesafio.Migrations
                 });
         }
 
+//protected
+
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
