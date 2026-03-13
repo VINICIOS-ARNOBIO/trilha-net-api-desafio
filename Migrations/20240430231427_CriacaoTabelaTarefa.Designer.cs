@@ -12,7 +12,8 @@ using TrilhaApiDesafio.Context;
 namespace TrilhaApiDesafio.Migrations
 {
     [DbContext(typeof(OrganizadorContext))]
-    [Migration("20240430231427_CriacaoTabelaTarefa")]
+    [Migration("20260430231427_CriacaoTabelaTarefa")]
+    //Criação tabela Tarefa
     partial class CriacaoTabelaTarefa
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
